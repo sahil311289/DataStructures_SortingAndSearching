@@ -44,11 +44,11 @@ public class MergeSort {
             divide(ar, start, mid);
             divide(ar, mid + 1, end);
 
-            conquer(ar, start, mid, end);
+            mergeSorted(ar, start, mid, end);
         }
     }
 
-    private static void conquer(int[] ar, int start, int mid, int end) {
+    private static void mergeSorted(int[] ar, int start, int mid, int end) {
 
         // Get lengths of the arrays
         int length1 = mid - start + 1;
