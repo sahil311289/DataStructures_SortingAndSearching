@@ -2,6 +2,9 @@
 1. Split the array into 2 halves recursively until only individual elements are left
 2. Start merging elements into 1 array
 3. Add remaining elements into the array
+
+Time: O(n Log n)
+Space: O(n)
  */
 
 public class MergeSort {
