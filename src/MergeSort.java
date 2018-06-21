@@ -62,7 +62,7 @@ public class MergeSort {
         for(int i=0; i<length1; i++) {
             leftAr[i] = ar[start+i];
         }
-        for(int i=0; i<length1; i++) {
+        for(int i=0; i<length2; i++) {
             rightAr[i] = ar[mid+1+i];
         }
 
